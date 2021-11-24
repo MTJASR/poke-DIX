@@ -3,6 +3,8 @@
 
 # Es una web creada para los amantes de los POKEMONES ❤️
 
+## Esta web se hizo mediante la API de POKEAPI : https://pokeapi.co/
+
 ## fue desarrollado con: 🚀
 
 * HTMl
