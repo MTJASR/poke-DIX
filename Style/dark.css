@@ -1,0 +1,41 @@
+:root{
+    --background-color:black ;
+}
+
+
+
+.pokemon-block,
+.pokemon-block-back {
+  border-radius: 15px;
+  padding: 10px;
+  background-color: rgb(10, 8, 8);
+  box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
+}
+
+p{
+    color: #FFCD00;
+}
+
+
+
+.nav-link{
+    color: #FFCD00 !important;
+    
+}
+
+
+
+.navbar-toggler-icon{
+    background-color: #FFCD00 !important;
+    border-radius: 5px;
+    
+}
+
+
+.bienvenido{
+    font-family: 'Ketchum', sans-serif;
+    font-size: 50px;
+    color: #FFCD00;
+   -webkit-text-stroke: 2px;
+   -webkit-text-stroke-color: #3973BF;                   
+  }

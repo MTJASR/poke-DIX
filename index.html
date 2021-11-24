@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="Style/main.css">
+    <link rel="stylesheet" media="(prefers-color-scheme:light)" href="Style/light.css">
+    <link rel="stylesheet" media="(prefers-color-scheme:dark)" href="Style/dark.css">
+    <link rel="shortcut icon" href="img/icono.ico" />
+    <title>Poke-DIX</title>
+  </head>
+  <body>
+    <!--Header-->
+    <nav class="navbar navbar-expand-lg navbar-light ">
+        <div class="container">
+            <a class="navbar-brand logo" href="/">
+                <img src="img/logo.png" alt="" style="width: 30px;" class="d-inline-block align-text-top">
+                Poke-DIX
+            </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#inicio">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#personajes">Personajes</a>
+              </li>
+              <li class="nav-item">
+               <a class="nav-link active" data-bs-toggle="modal" data-bs-target="#exampleModal" aria-current="page" href="#inicio">Contador</a>
+                            <!-- Modal -->
+                            <div class="modal fade bg-dark" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                              <div class="modal-dialog">
+                                <div class="modal-content">
+                                  <div class="modal-header">
+                                    <h1>Contador de pokemones</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                  </div>
+                                  <div class="modal-body">
+                                    <div class="container">
+                                      
+                                      <p id="valor" style="font-size: 30px;">0</p>
+                                      <div class="conten">
+                                      <button class=" btn boton disminuir">Disminuir</button>
+                                      <button class=" btn boton resetear">Resetear</button>
+                                      <button class=" btn boton aumentar">Aumentar</button>
+                                    </div>
+                                    </div>
+                                  </div>
+                                  <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary cerrar" data-bs-dismiss="modal">Cerar</button>
+                                   
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+              
+              <li class="nav-item">
+                <!--MODO OSCURO-->
+               
+                    <aside class="h6">
+                        <dark-mode-toggle
+                            id="dark-mode-toggle-1"
+                            legend=""
+                            appearance="toggle"
+                            light="Tema Claro"
+                            dark="Tema Oscucuro"
+                            ></dark-mode-toggle>
+                    </aside>
+            
+            <!--MODO OSCURO-->               
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+   <!--Header-->
+   
+ <!--Boton Subir-->
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-11"></div>
+                        <div class="col-sm-1">
+                            <a  href="#footer">
+                                <img src="img/bajar.png" alt="" style="width: 50px; height: 50px;">
+                            </a>
+                    </div>
+                </div>
+            </div>
+
+<!--Boton Subir-->
+
+ 
+   <!--Inicio-->
+   <div class="main-header">
+    <div class="background-overlay text-white ">
+      <section class="sobre">
+          <div class="container">
+            <div class="row ">
+          
+            </div>
+          </div>
+      </section> 
+    </div>
+  </div>     
+   <!--Inicio-->
+<br>
+<br>
+   <!--Nosotros-->
+   <div class="container">
+    <div class="row">
+        <div class="col-lg-8 ">
+          <img class="img-fluid" src="img/poke.png" style="width: 900px; ">
+            
+        </div>
+        <div class="col-lg-4 img-fluid" style="text-align: center;" alt="">
+          <div class="jumbotron nosotros" id="inicio">
+            
+            <p class="h5 text-center ">Es un grupo de programadores apasionados por los pokemon , su historia, sus capitulos
+              han hecho de nuestra infancia la mejor , por eso decidimos crear <strong>Poke-DIX</strong> un sitio web 
+              donde se podra encontrar informacion de los mejores pokemones de nuestra infancia
+            </p>
+          </div>
+        </div>
+      </div>
+   </div>
+      <!--Nosotros-->
+<br>
+<br>
+<br>
+   <!--Personajes-->
+            <p class="h1 bienvenido " id="personajes"><Strong>Nuestros Mejores Personajes</Strong></p>
+            <div class="container" >
+                <div class="row ">
+                
+                <div class="pokemon-container  ">
+            
+                </div>
+                
+                </div>
+            
+            </div>
+   <!--Personajes-->
+   <br>
+   <!--Boton Subir-->
+   <div class="container">
+        <div class="row">
+            <div class="col-sm-11"></div>
+                <div class="col-sm-1">
+                     <a  href="#">
+                        <img src="img/subir.png" alt="" style="width: 50px; height: 50px;">
+                    </a>
+               
+             </div>
+        </div>
+    </div>
+
+   <!--Boton Subir-->
+   <br>
+   <!--Footer-->
+            
+        <footer class="text-center text-lg-start bg-dark text-white footer " style=" left: 0; bottom: 0; width: 100%;" id="footer">
+    
+                    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+                   © 2021 Copyright:
+                    <a class="  text-white" style="text-decoration: none;" href="https://mtjasr.github.io/alejandrosuarezux/">Alejandro Suarez.UX</a>
+                    </div>
+   
+        </footer>
+  <!-- Footer -->
+   
+    <script src="scripts/main.js"></script>
+    <script src="scripts/contador.js"></script>
+    <script type="module" src="https://unpkg.com/dark-mode-toggle"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+   
+  </body>
+</html>

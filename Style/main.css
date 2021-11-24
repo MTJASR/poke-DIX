@@ -1,0 +1,202 @@
+@import url('http://fonts.cdnfonts.com/css/ketchum');
+
+
+body{
+    background-color: var(--background-color);
+}
+
+h1 {
+    color: white;
+  }
+ 
+  .bienvenido{
+    font-family: 'Ketchum', sans-serif;
+    font-size: 50px;
+    color: #FFCD00;
+   -webkit-text-stroke: 2px;
+   -webkit-text-stroke-color: #3973BF;                   
+  }
+
+  .h5{
+
+    font-family: 'Ketchum', sans-serif;
+    font-size: 20px;
+    color: #FFCD00;
+   -webkit-text-stroke: 1px;
+   -webkit-text-stroke-color: #3973BF;
+
+  }
+  .pokemon-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    margin-top: 20px;
+  }
+  
+  .pokemon-block,
+  .pokemon-block-back {
+    border-radius: 15px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
+  }
+
+  
+  img{
+      width: 90%;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+  }
+  
+  p{
+    text-align: center; 
+    font-family: 'Ketchum', sans-serif;
+    -webkit-text-stroke: 1px;
+   -webkit-text-stroke-color: black; 
+ }
+
+ h1{
+  
+    color: #FFCD00;
+    font-size: 50px !important;
+    text-align: center; 
+    font-family: 'Ketchum', sans-serif;
+    -webkit-text-stroke: 1px;
+   -webkit-text-stroke-color: black; 
+
+ }
+  .img-container {
+    background-image: url("./blob.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .pokemon-block p {
+    margin: 5px;
+  }
+  
+  .name {
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  
+  
+  .navbar-brand{
+    text-align: center !important;
+    font-family: 'Ketchum', sans-serif;
+    font-size: 40px;
+    color: #FFCD00 !important;
+   -webkit-text-stroke: 2px;
+   -webkit-text-stroke-color: #3973BF;
+    
+ }
+.modal-title{
+  text-align: center !important;
+    font-family: 'Ketchum', sans-serif;
+    color: #FFCD00 !important;
+}
+
+.btn{
+  text-align: center !important;
+    font-family: 'Ketchum', sans-serif;
+    color: #FFCD00 !important;
+}
+
+.cerrar{
+  text-align: center !important;
+    font-family: 'Ketchum', sans-serif;
+    color: #FFCD00 !important;
+    background: black !important;
+}
+ .nav-link{
+  font-family: 'Ketchum', sans-serif;
+ }
+
+ .footer{
+  font-family: 'Ketchum', sans-serif;
+ }
+
+ 
+    @media (max-width: 950px) {
+        .pokemon-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            padding: 5px;
+            width: 98%;
+            margin: 0;
+           
+          }
+
+          img{
+            width: 65%;
+            height: 65%;
+            text-align: center;
+            position: relative;
+        }
+        
+        p{
+           text-align: center; 
+           position: relative;
+           
+
+        }
+    }
+
+    @media (max-width: 800px) {
+        .pokemon-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            padding: 5px;
+            width: 98%;
+            margin: 0;
+           
+          }
+
+          img{
+            width: 65%;
+            text-align: center;
+            position: relative;
+        }
+        
+        p{
+           text-align: center; 
+        }
+    }
+
+    @media (max-width: 600px) {
+        .pokemon-container {
+            display: grid;
+            grid-template-columns: 1fr;
+            padding: 5px;
+            width: 98%;
+            margin: 0;
+           
+          }
+
+          img{
+            width: 65%;
+            text-align: center;
+            position: relative;
+        }
+        
+        p{
+           text-align: center; 
+        }
+
+        #personajes{
+          font-size: 30px;
+          -webkit-text-stroke: 1px;
+   -webkit-text-stroke-color: #3973BF;
+        }
+    }
+
+
+
+

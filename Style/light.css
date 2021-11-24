@@ -1,0 +1,17 @@
+:root{
+    --background-color:white !important;
+}
+
+#inicio{
+    color: black !important;
+}
+
+p{
+    color: #FFCD00;
+    font-size: 30px;
+}
+
+.nav-link{
+    color: #FFCD00 !important;
+    -webkit-text-stroke-color: black !important; 
+}
