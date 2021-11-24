@@ -12,12 +12,12 @@
 * POKEAPI
 
 # Cuenta con un contador de pokemones
-![Image text](https://github.com/zzuljs/CppLearning/blob/master/CppLearning/raw/master/Itachi.jpg)
+![Image text](https://github.com/MTJASR/poke-DIX/blob/main/contador.png)
 # Tema oscuro 
-
+![Image text](https://github.com/MTJASR/poke-DIX/blob/main/pc-negro.png)
 
 # Tema Claro
-
+![Image text](https://github.com/MTJASR/poke-DIX/blob/main/pc-blanco.png)
 
 
 
